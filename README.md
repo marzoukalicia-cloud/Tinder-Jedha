@@ -34,26 +34,30 @@ L'objectif de ce projet est de mener une **Analyse Exploratoire de Données (EDA
 ## 📂 Structure du Répertoire GitHub
 
 ```text
-📦 Spam-detector-Jedha
+📦 Tinder-Jedha
  ┣ 📂 notebook
- ┃ ┗ 📜 3.Projet_Tinder_Final.ipynb  # Analyses statistiques, nettoyage des vagues et visualisations Plotly
+ ┃ ┗ 📜 3.Projet_Tinder_Final.ipynb   # Analyses statistiques, nettoyage des vagues et visualisations Plotly
  ┣ 📂 data
- ┃ ┗ 📜 tinder_extract.csv        # Échantillon extrait du jeu de données source
+ ┃   ┣ 📜 Speed+Dating+Data+Key.doc   # Dictionnaire complet des variables et guide des métriques originales
+ ┃   ┗ 📜 Speed+Dating+Data.csv       # Échantillon extrait du jeu de données source
  ┣ 📂 outputs
- ┃ ┣ 📂 data
- ┃ ┃ ┣ 📜 crit-re-embedding-5.csv  # Synthèse comparative des critères de modélisation
- ┃ ┃ ┗ 📜 spam_extract.xlsx        # Fichier de contrôle et d'extraction de données
- ┃ ┗ 📂 viz
- ┃   ┣ 📜 heatmap_gender.png      # Cartographie sémantique des attentes Hommes vs Femmes
- ┃   ┣ 📜 Q0_1.png                # Distribution globale de l'âge des participants (Boxplot)
- ┃   ┣ 📜 Q0_2.png                # Histogramme de la structure des âges de la population
- ┃   ┣ 📜 Q2_2.png                # Nuage de points : note de beauté reçue vs chance de succès estimée
- ┃   ┣ 📜 Q2_2_boxplot.png        # Analyse de l'attractivité réelle mesurée selon le statut du match
- ┃   ┣ 📜 Q3_1.png                # Graphique en barres de l'impact de l'origine sur le taux de match
- ┃   ┣ 📜 Q4.png                  # Nuage de points : auto-évaluation vs note de beauté réelle attribuée
- ┃   ┣ 📜 Q5_2.png                # Courbe d'évolution du taux de "OUI" selon l'ordre du rendez-vous
- ┃   ┗ 📜 Q5_boxplot.png          # Boxplots de l'évolution de la sévérité des notes au fil de la soirée
- ┗ 📜 README.md                   # Documentation officielle du projet (Certification Bloc 2)
+ ┃   ┣ 📜 heatmap_gender.png         # Matrice d'importance des critères déclarés (Hommes vs Femmes)
+ ┃   ┣ 📜 Q0_1.png                   # Distribution des âges par genre (Boxplot de détection des outliers)
+ ┃   ┣ 📜 Q0_2.png                   # Pyramide des âges globale de la population (Histogramme de densité)
+ ┃   ┣ 📜 Q0_3.png                   # Analyse de la structure de l'échantillon par vague d'expérience
+ ┃   ┣ 📜 Q0_5.png                   # Répartition des participants selon leur domaine d'étude principal
+ ┃   ┣ 📜 Q2_1.png                   # Importance déclarée de l'attractivité physique vs les autres critères
+ ┃   ┣ 📜 Q2_1_boxplot.png           # Variabilité des notes d'attraction globale distribuées par genre
+ ┃   ┣ 📜 Q2_2.png                   # Nuage de points : Note de beauté reçue vs Probabilité de succès estimée
+ ┃   ┣ 📜 Q2_2_boxplot.png           # Impact réel de l'attractivité physique sur la validation du Match
+ ┃   ┣ 📜 Q3_1.png                   # Graphique en barres : Impact d'une origine ethnique commune (samerace) sur le Match
+ ┃   ┣ 📜 Q3_2_boxplot.png           # Impact de la corrélation des intérêts partagés sur la décision positive
+ ┃   ┣ 📜 Q3_4.png                   # Analyse sémantique de l'importance accordée aux centres d'intérêt communs
+ ┃   ┣ 📜 Q3_5_boxplot.png           # Corrélation entre la conformité culturelle et le taux de transformation
+ ┃   ┣ 📜 Q4.png                     # Nuage de points : Confrontation entre l'auto-évaluation et la note réelle reçue
+ ┃   ┣ 📜 Q5_2.png                   # Courbe d'évolution du taux de décision positive au fil de la soirée (Order)
+ ┃   ┗ 📜 Q5_boxplot.png             # Boxplots de mesure de la fatigue cognitive et de la sévérité des notes
+ ┗ 📜 README.md                      # Synthèse méthodologique, insights stratégiques et recommandations produit
 
 👨‍💻 Auteur
 Projet d'Analyse Exploratoire conçu et réalisé par Alicia Marzouk dans le cadre de la certification du Bloc #2 — Exploratory Data Analysis, Jedha Bootcam
